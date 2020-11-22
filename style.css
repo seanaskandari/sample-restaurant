@@ -1,3 +1,14 @@
+/* Body Style */
+body {
+    background-image: url(sample3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* Navbar Style */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,13 +22,15 @@ nav{
     min-height: 8vh;
     background-color: rgb(119, 121, 121);
     font-family: 'Staatliches', cursive;
+    opacity: 70%;
 }
 
 .logo{
-    color: rgb(238, 236, 236);
+    color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 22px;
+    opacity: 100%;
 }
 
 .nav-links{
@@ -106,4 +119,18 @@ nav{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+/* Footer Style */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(119, 121, 121);
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    opacity: 80%;
+
 }
