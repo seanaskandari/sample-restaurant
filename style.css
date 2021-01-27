@@ -124,6 +124,7 @@ nav{
 /* Footer Style */
 .footer {
     position: fixed;
+    padding: 20px;
     left: 0;
     bottom: 0;
     width: 100%;
